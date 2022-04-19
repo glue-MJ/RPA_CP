@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #D8D8D8;
+        }
+        .TopItem {
+            color: black;
+            text-align: center;
+            vertical-align: middle;
+            border-bottom: 2px solid black;
+            width: 80%; 
+            text-align: center; 
+            margin: 0 auto;
+        }
+        .Wrapper {
+            text-decoration: none;
+            padding: 10px;
+            background-color: white; 
+            color: black;
+            text-align: left;
+            vertical-align: middle;
+            border-bottom: 2px solid grey;
+        }
+
+        .Content {
+            font-size: x-large;
+            font-weight: bolder;
+            text-align: left;
+            vertical-align: middle;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+        }
+        .Content:link, .Content:visited, .Content:active{
+            text-decoration: none;
+            background-color: white; 
+            color: black;          
+        }
+        .Content:hover {
+            text-decoration: underline;
+            color: #8D7249;
+        }
+        
+    </style>
+    <div class="TopItem">
+        <h1 style="font-size: xx-large;">Here is your monthly update from MAS! {{Date_Range}}</h1>
+    </div>
+    <br>
+    <div style="overflow-y: scroll; width: 80%; text-align: center; margin: 0 auto; border: 1px solid black;">
+            <!-- TEXT HERE -->
+    </div>
+</body>
+</html>
